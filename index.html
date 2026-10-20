@@ -1,1 +1,760 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bintang Agung Wisnu Trisna | Portofolio Mahasiswa Informatika</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- File CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+
+  <!-- Efek Latar Belakang -->
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="aurora-orb orb-1"></div>
+    <div class="aurora-orb orb-2"></div>
+    <div class="aurora-orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      
+      <!-- Logo -->
+      <a href="#home" class="nav-logo">
+        <span class="logo-box">B</span>
+        <span class="logo-text">Trisna<span class="dot-accent">.</span></span>
+      </a>
+
+      <!-- Menu Navigasi -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Aksi Kanan Navbar -->
+      <div class="nav-actions">
+        <!-- Gelap / Terang -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Ubah Tema Gelap atau Terang" title="Ubah Tema Gelap/Terang">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+
+        <a href="mailto:btrisna08@gmail.com" class="nav-cta-btn">
+          <span>Let's Talk</span>
+          <i class="fa-regular fa-paper-plane"></i>
+        </a>
+
+        <button class="hamburger-btn" id="hamburger" aria-label="Buka Menu Mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu (Untuk Layar HP) -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <span class="drawer-logo">Bintang Trisna<span>.</span></span>
+      <button class="drawer-close" id="drawerClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="drawer-links">
+      <a href="#home" class="drawer-link active">Home</a>
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#education" class="drawer-link">Education</a>
+      <a href="#skills" class="drawer-link">Skills</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#experience" class="drawer-link">Experience</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ================= 1. HOME ================= -->
+    <section class="section home-section" id="home">
+      <div class="container home-container">
+        
+        <!-- Teks Kiri -->
+        <div class="home-text">
+          <div class="badge-status">
+            <span class="pulse-dot"></span>
+            <span>S1 TEKNIK INFORMATIKA • UNIVERSITAS NEGERI SURABAYA</span>
+          </div>
+
+          <h1 class="home-title">
+            Bintang Agung <br>
+            <span class="gradient-text">Wisnu Trisna.</span>
+          </h1>
+          
+          <h2 class="home-role">
+            <span id="typing-text">Informatics Student</span><span class="cursor">|</span>
+          </h2>
+          
+          <p class="home-desc">
+            Mahasiswa S1 Teknik Informatika Universitas Negeri Surabaya dengan kemampuan komunikasi yang baik, adaptif, dan memiliki antusiasme tinggi untuk mempelajari hal-hal baru di dunia teknologi software, web development, dan interaksi publik.
+          </p>
+
+          <div class="home-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-code"></i> Lihat Project
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-id-card"></i> Hubungi Saya
+            </a>
+            <a href="https://www.linkedin.com/in/bintang-agung-wisnu-trisna-3b8105441?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="Kunjungi LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+            </a>
+          </div>
+
+          <!-- MEDSOS -->
+          <div class="home-socials">
+            <a href="https://drive.google.com/file/d/1hsIX3Imnmx_Av36oKHdc6iQF-2PZz2rE/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="social-icon-box" title="Buka CV di Google Drive">
+              <i class="fa-solid fa-file-pdf"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bintang-agung-wisnu-trisna-3b8105441?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="social-icon-box" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:btrisna08@gmail.com" class="social-icon-box" title="Email Langsung">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/6285656812473" target="_blank" rel="noopener noreferrer" class="social-icon-box" title="WhatsApp: 085656812473">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Foto Profil Kanan -->
+        <div class="home-visual">
+          <div class="profile-card-wrapper">
+            <div class="glow-halo"></div>
+            
+            <div class="profile-card">
+              <div class="profile-img-container">
+                <img src="foto.jpg" alt="Bintang Agung Wisnu Trisna" class="profile-photo" id="profileImg" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80'">
+                <div class="photo-overlay-tag">Active Student '26</div>
+              </div>
+            </div>
+
+            <!-- Floating Micro Badges -->
+            <div class="floating-pill pill-top-left">
+              <i class="fa-solid fa-code"></i> Tech & Code
+            </div>
+            <div class="floating-pill pill-bottom-right">
+              <i class="fa-solid fa-microphone-lines"></i> Public Speaking
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 2. ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tag">ABOUT ME</span>
+          <h2 class="section-title"><span class="serif-script">About</span> <span class="gradient-text">Saya.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Profil Singkat -->
+          <div class="about-text-col">
+            <p>
+              Halo! Saya <strong>Bintang Agung Wisnu Trisna</strong>, mahasiswa baru program studi S1 Teknik Informatika di <strong>Universitas Negeri Surabaya (UNESA)</strong>.
+            </p>
+            <p>
+              Saya memiliki kemampuan komunikasi yang baik, sikap bertanggung jawab, dan antusiasme tinggi untuk terus mempelajari hal-hal baru. Berpengalaman aktif dalam kegiatan sekolah, kepanitiaan, serta mampu bekerja sama secara solid di dalam tim.
+            </p>
+            <p>
+              Mampu beradaptasi dengan cepat di lingkungan baru, mengelola manajemen waktu dengan disiplin, dan mempertahankan sikap positif saat bekerja mandiri maupun berkelompok.
+            </p>
+            <p>
+              Saat ini memiliki ketertarikan besar dalam mengeksplorasi dunia software engineering, pemrograman web, teknologi digital, dan interaksi publik.
+            </p>
+          </div>
+
+          <!-- Informasi Mahasiswa -->
+          <div class="about-cards-col">
+            <div class="info-card">
+              <span class="info-label">NAMA LENGKAP</span>
+              <span class="info-value">Bintang Agung Wisnu Trisna</span>
+            </div>
+
+            <div class="info-card">
+              <span class="info-label">NIM</span>
+              <span class="info-value highlight-num">26051204011</span>
+            </div>
+
+            <div class="info-card">
+              <span class="info-label">PROGRAM STUDI</span>
+              <span class="info-value">S1 Teknik Informatika</span>
+            </div>
+
+            <div class="info-card">
+              <span class="info-label">FAKULTAS</span>
+              <span class="info-value">Fakultas Teknik</span>
+            </div>
+
+            <div class="info-card">
+              <span class="info-label">UNIVERSITAS</span>
+              <span class="info-value">Universitas Negeri Surabaya (UNESA)</span>
+            </div>
+
+            <div class="info-card">
+              <span class="info-label">DOMISILI</span>
+              <span class="info-value">Surabaya, Jawa Timur</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 3. EDUCATION ================= -->
+    <section class="section" id="education">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tag">EDUCATION</span>
+          <h2 class="section-title">Perjalanan <span class="gradient-text">Pendidikan.</span></h2>
+        </div>
+
+        <div class="timeline">
+          
+          <!-- Universitas S1 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">2026 — 2030/span>
+              <h3 class="timeline-school">Universitas Negeri Surabaya</h3>
+              <p class="timeline-degree">S1 Teknik Informatika (Bachelor of Informatics Engineering)</p>
+              <p class="timeline-desc">
+                Fakultas Teknik. Berfokus pada penguasaan dasar logika algoritma, software development, pemrograman web, struktur data, dan pemanfaatan teknologi informasi untuk memecahkan masalah nyata.
+              </p>
+            </div>
+          </div>
+
+          <!-- SMA -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">JULI 2023 — JUNI 2026</span>
+              <h3 class="timeline-school">SMA Wijaya Putra Surabaya</h3>
+              <p class="timeline-degree">Sekolah Menengah Atas</p>
+              <p class="timeline-desc">
+                Aktif dalam kegiatan akademik sekolah, organisasi siswa, dan mengasah keterampilan komunikasi, public speaking, serta kepemimpinan.
+              </p>
+            </div>
+          </div>
+
+          <!-- SMP -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">2021 — 2023</span>
+              <h3 class="timeline-school">MTsN 4 Kota Surabaya</h3>
+              <p class="timeline-degree">Pendidikan Menengah Pertama</p>
+              <p class="timeline-desc">
+                Menyelesaikan pendidikan dasar hanya 2 tahun ( Akselerasi ), aktif mengikuti kegiatan sekolah, dan menanamkan nilai-nilai kedisiplinan serta dasar ilmu pengetahuan.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 4. SKILLS ================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tag">SKILLS & COMPETENCIES</span>
+          <h2 class="section-title">Kemampuan <span class="gradient-text">Saya.</span></h2>
+        </div>
+
+        <!-- 4 Kategori Skill  -->
+        <div class="skills-grid">
+          
+          <!-- Skill 1: Programming -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3>Programming</h3>
+                <span class="skill-sub">Dasar Pemrograman</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li>C++ Programming</li>
+              <li>Python Dasar</li>
+              <li>Software Development Dasar</li>
+              <li>Logika Algoritma & Debugging</li>
+            </ul>
+          </div>
+
+          <!-- Skill 2: Web & IT Fundamentals -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div>
+                <h3>Web & IT Fundamentals</h3>
+                <span class="skill-sub">Teknologi Informasi</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li>HTML & CSS Dasar</li>
+              <li>JavaScript Dasar</li>
+              <li>Information Technology</li>
+              <li>Microsoft Excel & Office Dasar</li>
+            </ul>
+          </div>
+
+          <!-- Skill 3: Creative & Media -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div>
+                <h3>Creative & Media</h3>
+                <span class="skill-sub">Visual Content</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li>Videography</li>
+              <li>Video Editing</li>
+              <li>Digital Campaign & Content</li>
+              <li>Visual Data Capture</li>
+            </ul>
+          </div>
+
+          <!-- Skill 4: Soft Skills & Public Speaking -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-solid fa-users-rays"></i>
+              </div>
+              <div>
+                <h3>Soft Skills & Public Speaking</h3>
+                <span class="skill-sub">Komunikasi & Karakter</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li>Public Speaking & Komunikasi Efektif</li>
+              <li>Master of Ceremony (MC) & Event Hosting</li>
+              <li>Teamwork & Collaboration</li>
+              <li>Time Management & Fast Learner</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 5. CERTIFICATES ================= -->
+    <section class="section" id="certificates">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tag">CERTIFICATES</span>
+          <h2 class="section-title"><span class="serif-script">Sertifikat</span> <span class="gradient-text">Saya.</span></h2>
+          <p class="section-subtitle" style="color: var(--text-muted); font-size: 0.95rem; margin-top: 8px;">
+            Klik pada gambar sertifikat untuk memperbesar dan melihat sertifikat secara penuh.
+          </p>
+        </div>
+
+        <div class="cert-gallery-grid">
+          
+          <!-- Sertifikat 1 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-1.jpg', 'Editor Buku — Insight Pustaka')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-1.jpg" alt="Business Model Canvas Class" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">10 Juni 2026</span>
+              <h3 class="cert-card-title">Editor Buku</h3>
+              <p class="cert-card-issuer">Insight Pustaka</p>
+            </div>
+          </div>
+
+          <!-- Sertifikat 2 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-2.jpg', 'Kelas MC dan Keprotokolan — Skill Update')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-2.jpg" alt="Level Up Your Personal Brand" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">04 September 2026</span>
+              <h3 class="cert-card-title">Kelas MC dan Keprotokolan</h3>
+              <p class="cert-card-issuer">Skill Update</p>
+            </div>
+          </div>
+
+          <!-- Sertifikat 3 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-3.jpg', 'Kelas Self-Confidence — Skill Update')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-3.jpg" alt="Master of Ceremony Class" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">16 September 2026</span>
+              <h3 class="cert-card-title">Kelas Self-Confidence</h3>
+              <p class="cert-card-issuer">Skill Update</p>
+            </div>
+          </div>
+
+          <!-- Sertifikat 4 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-4.jpg', 'Kelas Public Speaking — Skill Update')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-4.jpg" alt="Public Speaking Class" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">22 September 2026</span>
+              <h3 class="cert-card-title">Kelas Public Speaking</h3>
+              <p class="cert-card-issuer">Skill Update</p>
+            </div>
+          </div>
+
+          <!-- Sertifikat 5 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-5.jpg', 'Kelas Business Model Canvas — Skill Update')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-5.jpg" alt="Wedding MC Class" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">23 September 2026</span>
+              <h3 class="cert-card-title">Kelas Business Model Canvas</h3>
+              <p class="cert-card-issuer">Skill Update</p>
+            </div>
+          </div>
+
+          <!-- Sertifikat 6 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-6.jpg', 'Kelas The Miracle of Public Speaking — Skill Update')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-6.jpg" alt="Sertifikat Pelatihan 6" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">26 September 2026</span>
+              <h3 class="cert-card-title">Kelas The Miracle of Public Speaking</h3>
+              <p class="cert-card-issuer">Skill Update</p>
+            </div>
+          </div>
+
+          <!-- Sertifikat 7 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-7.jpg', 'Kelas Personal Branding — Skill Update')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-7.jpg" alt="Sertifikat Pelatihan 7" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">02 Oktober 2026</span>
+              <h3 class="cert-card-title">Kelas Personal Branding "Level Up Your Personal Brand"</h3>
+              <p class="cert-card-issuer">Skill Update</p>
+            </div>
+          </div>
+
+          <!-- Sertifikat 8 -->
+          <div class="cert-img-card" onclick="openCertModal('sertifikat-8.jpg', 'Kelas Master of Ceremony — Skill Update')">
+            <div class="cert-img-wrap">
+              <img src="sertifikat-8.jpg" alt="Sertifikat Pelatihan 8" class="cert-thumbnail" onerror="this.src='https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=800&q=80'">
+              <div class="cert-hover-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Perbesar</span>
+              </div>
+            </div>
+            <div class="cert-card-body">
+              <span class="cert-date-badge">03 Oktober 2026</span>
+              <h3 class="cert-card-title">Kelas Master of Ceremony</h3>
+              <p class="cert-card-issuer">Skill Update</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Modal Popup Lightbox Gambar Sertifikat -->
+    <div class="cert-modal" id="certModal" onclick="closeCertModal()">
+      <div class="cert-modal-content" onclick="event.stopPropagation()">
+        <button class="cert-modal-close" onclick="closeCertModal()" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+        <img id="modalCertImg" src="" alt="Pratinjau Sertifikat Penuh">
+        <p class="cert-modal-caption" id="modalCertCaption"></p>
+      </div>
+    </div>
+
+    <!-- ================= 6. PROJECTS ================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tag">PROJECT ARCHIVE</span>
+          <h2 class="section-title">Project <span class="gradient-text">Saya.</span></h2>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Portofolio Web Personal -->
+          <div class="project-card highlight-card">
+            <div class="project-card-top">
+              <span class="project-number">PROJECT / 01</span>
+              <span class="project-badge">Web Dev</span>
+            </div>
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-description">
+              Website portofolio interaktif dan responsif yang dibangun menggunakan HTML, CSS, dan JavaScript murni untuk personal branding, menampilkan data akademik, sertifikasi, serta portofolio kegiatan secara profesional.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+
+          <!-- Project 2: Program Logika C++ -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <span class="project-number">PROJECT / 02</span>
+              <span class="project-badge">Coding Lab</span>
+            </div>
+            <h3 class="project-title">C++ Logic & Console Calculator</h3>
+            <p class="project-description">
+              Program konsol interaktif berbasis bahasa C++ untuk menyelesaikan perhitungan matematika dan logika percabangan. Mengasah pemahaman tentang variabel, percabangan if-else, looping, dan array dasar.
+            </p>
+            <div class="project-tags">
+              <span class="tag">C++</span>
+              <span class="tag">Console App</span>
+              <span class="tag">Algoritma</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Digital Promotional & Video Campaign -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <span class="project-number">PROJECT / 03</span>
+              <span class="project-badge">Media Production</span>
+            </div>
+            <h3 class="project-title">Digital Promotion & Video Production</h3>
+            <p class="project-description">
+              Proyek perancangan konten promosi visual dan videografi terstruktur untuk mendukung kampanye pemasaran produk dan event publik, mencakup pengambilan video, editing, dan penataan alur pesan interaktif.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Videography</span>
+              <span class="tag">Video Editing</span>
+              <span class="tag">Digital Marketing</span>
+            </div>
+          </div>
+
+          <!-- Project 4: Business Strategy & Analysis -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <span class="project-number">PROJECT / 04</span>
+              <span class="project-badge">Business & Strategy</span>
+            </div>
+            <h3 class="project-title">Business Special Project & Strategy</h3>
+            <p class="project-description">
+              Analisis kebutuhan proyek bisnis independen, merumuskan strategi operasional, dan penerapan konsep Business Model Canvas untuk memetakan alur kerja, target capaian klien, dan efisiensi komunikasi tim.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Business Strategy</span>
+              <span class="tag">Client Management</span>
+              <span class="tag">Analysis</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 7. EXPERIENCE ================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-tag">WORK EXPERIENCE</span>
+          <h2 class="section-title">Pengalaman <span class="gradient-text">Saya.</span></h2>
+        </div>
+
+        <div class="experience-grid">
+          
+          <!-- Exp 1: WFH Atlas Capture -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">WFH Atlas Capture</h3>
+                <span class="exp-company">Data Collection & Capture Specialist</span>
+              </div>
+              <span class="exp-period">JAN 2026 — SEKARANG</span>
+            </div>
+            <ul class="exp-list">
+              <li>Melakukan tugas pengumpulan dan pencatatan data rumah tangga harian menggunakan aplikasi Atlas Capture.</li>
+              <li>Menjalankan seluruh prosedur pencatatan sesuai Standar Operasional Prosedur (SOP) dan pedoman teknis pengambilan data visual.</li>
+              <li>Menjaga akurasi dan validitas rekaman data agar terverifikasi dengan baik di sistem.</li>
+            </ul>
+          </div>
+
+          <!-- Exp 2: Freelance Business Special Project -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Freelance Business Special Project</h3>
+                <span class="exp-company">Project Execution & Analysis</span>
+              </div>
+              <span class="exp-period">JUN 2025 — DES 2025</span>
+            </div>
+            <ul class="exp-list">
+              <li>Mengelola dan mengeksekusi proyek bisnis khusus sesuai kebutuhan klien, baik secara mandiri maupun berkolaborasi dengan tim.</li>
+              <li>Melakukan analisis kebutuhan proyek dan merumuskan strategi operasional yang efektif.</li>
+              <li>Memantau pencapaian target proyek secara berkala untuk memastikan kepuasan klien.</li>
+            </ul>
+          </div>
+
+          <!-- Exp 3: Restaurant Cashier -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Restaurant Cashier</h3>
+                <span class="exp-company">Customer Service & Cashier Operations</span>
+              </div>
+              <span class="exp-period">FEB 2025 — MEI 2025</span>
+            </div>
+            <ul class="exp-list">
+              <li>Menangani transaksi pembayaran tunai dan non-tunai secara cepat, teliti, dan ramah kepada setiap pelanggan.</li>
+              <li>Mengelola pencatatan kas keluar-masuk harian serta menjaga akurasi laporan transaksi penutupan toko.</li>
+              <li>Memberikan pelayanan terbaik dan tanggap dalam merespons pertanyaan pengunjung restoran.</li>
+            </ul>
+          </div>
+
+          <!-- Exp 4: Promotion Team Member -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Promotion Team Member</h3>
+                <span class="exp-company">Marketing & Event Promotion</span>
+              </div>
+              <span class="exp-period">JAN 2024 — JAN 2025</span>
+            </div>
+            <ul class="exp-list">
+              <li>Berkolaborasi dengan tim pemasaran dalam menyelenggarakan kegiatan promosi langsung di lapangan (on-ground events).</li>
+              <li>Mendukung kampanye promosi digital dan pembuatan materi publikasi kegiatan.</li>
+              <li>Berinteraksi langsung dengan audiens publik untuk membangun daya tarik dan pengenalan brand.</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 8. CONTACT & FOOTER ================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="contact-box">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="contact-title">Let’s Build <span class="gradient-text">Something.</span></h2>
+          <p class="contact-desc">
+            Terbuka untuk kesempatan belajar, kolaborasi proyek kuliah, program internship/magang, maupun peluang baru di bidang teknologi informasi dan komunikasi.
+          </p>
+
+          <div class="contact-buttons-row">
+            <a href="mailto:btrisna08@gmail.com" class="btn btn-primary">
+              <i class="fa-solid fa-envelope"></i> Email Saya
+            </a>
+            <a href="https://drive.google.com/file/d/1hsIX3Imnmx_Av36oKHdc6iQF-2PZz2rE/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-solid fa-file-pdf"></i> CV
+            </a>
+            <a href="https://www.linkedin.com/in/bintang-agung-wisnu-trisna-3b8105441?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-brands fa-linkedin-in"></i> Profil LinkedIn
+            </a>
+            <a href="https://wa.me/6285656812473" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-brands fa-whatsapp"></i> Hubungi WhatsApp
+            </a>
+          </div>
+
+          <!-- Info Kontak Ringkas -->
+          <div class="contact-meta-row">
+            <div class="meta-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Surabaya, Jawa Timur</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-file-lines"></i>
+              <span>CV</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>085656812473</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>btrisna08@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>© 2026 <strong>Bintang Agung Wisnu Trisna</strong>. S1 Teknik Informatika UNESA. Crafted with passion & code.</p>
+        </footer>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- File JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
